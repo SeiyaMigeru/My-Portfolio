@@ -61,7 +61,7 @@ export default function Project({
             src={imageUrl}
             alt={title}
             quality={95}
-            className="absolute top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
+            className="absolute top-16 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
             group-even:right-[initial] group-even:-left-40 group-hover:-translate-x-3 
             group-hover:translate-y-3 group-hover:-rotate-2 transition 
             group-hover:scale-[1.04] group-even:group-hover:translate-x-3 
