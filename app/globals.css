@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  --line-color: #475569;
+}
+
+html.dark {
+  --line-color: rgba(255, 255, 255, 0.1);
+}
