@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        Since graduating in October 2023, I've dedicated myself to pursuing a
+        Since graduating in October 2023, I have dedicated myself to pursuing a
         career in React, accumulating nearly three years of experience in
         developing <span className=" font-bold"> React web applications </span>{" "}
         and creating mobile app using{" "}
