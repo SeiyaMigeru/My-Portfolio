@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import stdDfcncyPortal from "@/public/Project1.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import mozamAuto from "@/public/Project2.png";
 import projMaria from "@/public/Project3.png";
 
 export const links = [
@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated College",
+    location: "Manila, Philippines",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated with a Bachelor of Science in Computer Engineering from Polytechnic University of the Philippines, Manila. I took the course for 4 years while taking certification courses online.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2019-2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "IT Intern",
+    location: "Singapore",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as an IT Intern for Knowles Training Institute 3 months. My job consists of researching for their online courses and creating sites using Wordpress.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022",
   },
   {
     title: "Full-Stack Developer",
-    location: "Houston, TX",
+    location: "Maputo, Mozambique",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I was hired as a full-stack developer working as a freelancer for a truck company in Mozambique. I created a platform for MozamAuto to sell trucks and truckparts.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023-2024",
   },
 ] as const;
 
@@ -64,24 +64,24 @@ export const projectsData = [
   {
     title: "Project Maria",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I worked as a front-end developer on this project for 18 months. It is a rescuee system for mountaineers.",
+    tags: ["HTML", "CSS", "JavaScript", "Android Studio", "Express JS", "Python", "C++", "ESP32"],
     imageUrl: stdDfcncyPortal,
     href: "https://github.com/studentmorrisjohn/Maria-DMS"
   },
   {
     title: "MozamAuto",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "As a full-stack developer, created platform for a truck company to sell their products and showcase their team.",
+    tags: ["React", "Tailwind", "NodeJS", "ExpressJS"],
+    imageUrl: mozamAuto,
     href: "https://github.com/SeiyaMigeru/Mozamauto"
   },
   {
     title: "PUP Student Deficiency Portal",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "A web app for student deficiencies in Polytechnic University of the Philippines. I also worked as a frontend developer on this project.",
+    tags: ["ReactJS", "Python", "Django",],
     imageUrl: projMaria,
     href: "https://github.com/studentmorrisjohn/deficiency_portal_frontend"
   },
@@ -98,4 +98,5 @@ export const skillsData = [
   "Tailwind",
   "Python",
   "Framer Motion",
+  "Andorid Studio",
 ] as const;

@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref } = useSectionInView('About');
+  const { ref } = useSectionInView("About");
 
   return (
     <motion.section
@@ -19,17 +19,22 @@ export default function About() {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-        vehicula elit ut metus dapibus molestie. Etiam id convallis nunc.
-        Suspendisse elementum elit at faucibus commodo. Ut tellus orci, viverra
-        a maximus ac, facilisis sed tellus. Donec vel quam est.
+        Since graduating in October 2023, I've dedicated myself to pursuing a
+        career in React, accumulating nearly three years of experience in
+        developing <span className=" font-bold"> React web applications </span>{" "}
+        and creating mobile app using{" "}
+        <span className="font-bold">Android Studio</span>. Now, I am keen to
+        refine my skills further and actively seeking opportunities to
+        contribute to web development projects.
       </p>
       <p>
-        Praesent lorem augue, tempus eu lorem vitae, imperdiet facilisis risus.
-        Nullam molestie quis ante id laoreet. Etiam sit amet lacinia tortor.
-        Donec lacinia auctor elit ullamcorper mollis. Sed in elit lorem. Fusce
-        at arcu nunc. Aenean vitae dui leo. Donec scelerisque volutpat bibendum.
-        In hac habitasse platea dictumst.
+        With a degree in <span className="font-bold">Computer Engineering</span>{" "}
+        from PUP Manila, I am excited to immerse myself in the dynamic realm of
+        web development, particularly focusing on{" "}
+        <span className="font-bold">Next.js and React.</span> My comprehensive
+        education has endowed me with a deep understanding of both software and
+        hardware, which I believe will be instrumental in crafting efficient web
+        applications.
       </p>
     </motion.section>
   );
