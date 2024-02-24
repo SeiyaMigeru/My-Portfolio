@@ -34,7 +34,7 @@ export default function Contact() {
         Contact me directly at{" "}
         <a className="underline" href="mailto:smsgurango@gmail.com">
           smsgurango@gmail.com
-        </a>
+        </a>{" "}
         or through this form.
       </p>
       <form
@@ -42,7 +42,7 @@ export default function Contact() {
         action={async (formData) => {
           const { data, error } = await sendEmail(formData);
 
-          if(error) {
+          if (error) {
             toast.error(error);
             return;
           }

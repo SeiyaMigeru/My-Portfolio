@@ -62,7 +62,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hi, I am Seiya Miguel Gurango</span>, a
-        passionate <span className="font-bold">full-stack developer</span> with
+        passionate <span className="font-bold">Full-Stack developer</span> with
         a keen interest in <span className="font-bold">React JS!</span> With a
         deep understanding of modern web development techniques and enjoys{" "}
         <span className=" italic underline">building web applications</span>.
